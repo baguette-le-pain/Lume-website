@@ -38,3 +38,31 @@ ul {
     padding-inline-start: 40px;
     unicode-bidi: isolate;
 }
+.lume-icon {
+  fill: #1A1A1A;
+  width: 100%;
+  height: 200px;
+  filter: drop-shadow(0 0 5px #00FFFF);
+}
+.primary_nav ul {
+    list-style-type: none; /* Remove those standard browser dots */
+    padding-inline-start: 20px; /* Align it with your sidebar padding */
+}
+
+.primary_nav li {
+    margin-bottom: 15px; /* Give the links some breathing room */
+}
+
+.nav .primary_nav a {
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    /* transition is already in your code */
+}
+
+/* Hover effect to match the Lume Icon glow */
+.nav .primary_nav a:hover {
+    color: #00FFF5;
+    padding-left: 10px; /* Subtle slide effect */
+    text-shadow: 0 0 5px #00FFFF;
+}
