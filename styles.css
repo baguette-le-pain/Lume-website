@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    background: #F0F0F0;
+    color: #727779;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    color: white;
+    background: #2B2B2B;
+}
+.main {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background: white;
+    width: 800px;
+    overflow: hidden;
+    margin-left: 200px;
+    padding: 0 100px 16px 100px;
+    opacity: 1;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
