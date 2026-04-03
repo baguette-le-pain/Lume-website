@@ -66,3 +66,24 @@ ul {
     padding-left: 10px; /* Subtle slide effect */
     text-shadow: 0 0 5px #00FFFF;
 }
+
+.milestone-list {
+    list-style: none;
+    padding: 0;
+}
+.milestone {
+    border-left: 3px solid #7A7A7A;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+.milestone.active {
+    border-left-color: #00FFFF; /* The Aetheria Cyan */
+}
+.status-tag {
+    font-family: monospace;
+    font-size: 12px;
+    background: #1A1A1A;
+    color: #00FFFF;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
